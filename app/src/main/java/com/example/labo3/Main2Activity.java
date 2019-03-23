@@ -39,7 +39,7 @@ public class Main2Activity extends AppCompatActivity {
             String text4 = txv4.getText().toString();
 
             Intent mIn = new Intent();
-            mIn.setType("Text/plain");
+            mIn.setType("text/plain");
             mIn.setAction(Intent.ACTION_SEND);
             mIn.putExtra(Intent.EXTRA_TEXT, text1);
             mIn.putExtra(Intent.EXTRA_TEXT, text2);
